@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.locations
+  module:
+    - system
+    - views
+  theme:
+    - bikeclub_solo
+id: bikeclub_solo_views_block__locations_ride_starts
+theme: bikeclub_solo
+region: bottom_first
+weight: 0
+provider: null
+plugin: 'views_block:locations-ride_starts'
+settings:
+  id: 'views_block:locations-ride_starts'
+  label: 'Ride Start Locations'
+  label_display: visible
+  provider: views
+  views_label: 'Ride Start Locations'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
