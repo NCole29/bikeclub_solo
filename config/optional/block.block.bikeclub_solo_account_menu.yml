@@ -10,7 +10,7 @@ dependencies:
 id: bikeclub_solo_account_menu
 theme: bikeclub_solo
 region: header
-weight: -5
+weight: -10
 provider: null
 plugin: 'system_menu_block:account'
 settings:
