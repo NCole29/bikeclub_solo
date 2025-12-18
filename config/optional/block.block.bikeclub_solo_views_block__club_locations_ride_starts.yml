@@ -8,14 +8,14 @@ dependencies:
     - views
   theme:
     - bikeclub_solo
-id: bikeclub_solo_views_block__locations_ride_starts
+id: bikeclub_solo_views_block__club_locations_ride_starts
 theme: bikeclub_solo
 region: bottom_first
 weight: 0
 provider: null
-plugin: 'views_block:locations-ride_starts'
+plugin: 'views_block:club_locations-ride_starts'
 settings:
-  id: 'views_block:locations-ride_starts'
+  id: 'views_block:club_locations-ride_starts'
   label: 'Ride Start Locations'
   label_display: visible
   provider: views
