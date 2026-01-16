@@ -2,20 +2,20 @@ langcode: en
 status: true
 dependencies:
   config:
-    - views.view.club_banner
+    - views.view.ride_cancellations
   module:
     - system
     - views
   theme:
     - bikeclub_solo
-id: bikeclub_solo_views_block__club_banner_banner_home
+id: bikeclub_solo_views_block__ride_cancellations_cancellations
 theme: bikeclub_solo
-region: banner_pictures
+region: highlighted
 weight: 0
 provider: null
-plugin: 'views_block:club_banner-banner_home'
+plugin: 'views_block:ride_cancellations-cancellations'
 settings:
-  id: 'views_block:club_banner-banner_home'
+  id: 'views_block:ride_cancellations-cancellations'
   label: ''
   label_display: '0'
   provider: views

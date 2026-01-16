@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - views.view.locations
+    - views.view.club_locations
   module:
     - system
     - views
