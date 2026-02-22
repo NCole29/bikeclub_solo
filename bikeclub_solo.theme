@@ -16,7 +16,7 @@ function bikeclub_solo_theme_suggestions_block_alter(&$suggestions, $variables) 
  */
 function bikeclub_solo_preprocess_node__banner__full(array &$variables): void {
   // Specific to bikeclub banner content type. 
-  // Pass number_images variable to template to set the columns in the responsive grid.
+  // Pass number_images to template to set the columns in the responsive grid for galleries
   $variables['columns'] = 'number_images';
 }
 
